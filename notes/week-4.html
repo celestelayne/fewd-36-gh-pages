@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week 4🔹FEWD 36</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="../css/fewd-36.css" />
+</head>
+<body>
+
+<header>
+	<h1><a href="../index.html">FEWD 36</a> - Week 4</h1>
+</header>
+
+<section>
+
+	<h2>Why do we need programming languages?</h2>
+        <ul>
+            <li><strong>branching/condtionals</strong>: if a certain state is observed, do a thing</li>
+            <li><strong>loops</strong>: doing the same thing to a whole list of things</li>
+            <li><strong>input/output</strong>: consuming data and doing something with it</li>
+        </ul>
+
+    <h2>Variables</h2>
+
+		<p>In programming languages, information is stored in things called variables.</p>
+
+		<p>in Javascript variables are created using the keyword <code>var</code>.  For example: <code>var x = 1;</code></p>
+
+        <p>Variables can store different types of data, for example:</p>
+
+        <ul>
+            <li><strong>Numbers</strong>: sometimes called integers (without a decimal) and floats (with a decimal).  In Javascript we just call them all numbers</li>
+            <li><strong>Strings</strong>: some text, programming languages like Javascript are good at manipulating text</li>
+        </ul>
+
+    <h2>Operators</h2>
+
+	    <p>In the above example (<code>var x = 1;</code>), we call the equals sign (<code>=</code>) the "operator".  The operator <code>=</code> assigns a value to a variable.  The above example assigns the value <code>1</code> to the variable <code>x</code>.</p>
+
+	    <p>There are other operators used to manipulate values, for example: <code>+</code>, <code>-</code>, <code>*</code>, etc.</p>
+
+    <h2>Functions</h2>
+
+	    <p>Functions fundamentally have three parts:</p>
+
+	    <ul>
+	        <li>Take in some information. We call this input information 'parameters'.  You can supply a function with as many parameters as you like.</li>
+	        <li>Do something, probably using the information that has been 'passed in' as arguments.</li>
+	        <li>Return something.  Functions in Javascript <strong>always</strong> return something. If they don't return a specific value, they return a value called <code>undefined</code>.</li>
+	    </ul>
+
+	    <p>For example:</p>
+
+	    <pre><code>function sum(a, b) {<br/>  var result = a + b;<br/>  return result;<br/>}</code></pre>
+
+	    <p>Functions are called with parentheses, for example, the following returns the number 5:</p>
+
+	    <pre><code>sum(2, 3);</code></pre>
+
+	    <p><strong>Silly example shown in class: Declaring a function(with parameters)</strong></p>
+	    <pre><code>function makeASalad(lettuce, dressing, cheese, bacon, nuts){
+			washing the lettuce;
+			add the dressing;
+			add tomatoes to the lettuce;
+			grate the cheese;
+			sprinkle the nuts;
+			add bacon;
+			toss together and give me the salad }</code></pre>
+
+			<p>Here's how you would "call" the above function with appropriate "arguments" </p>
+			 <pre><code>makeASalad(romaine, cesar, roma, parmesan, maple, walnut)</code></pre>
+
+			<p>Here's how you would "call" the above function without "arguments"</p>
+			 <pre><code>makeASalad()</code></pre>
+
+	<h2>Javascript provides some built-in functions!</h2>
+	    <p>Javascript and the browser provide you with a bunch of functions you can use to do things.  You can find a complete list at <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects">MDN</a>.  Some examples (try them out!):</p>
+
+	    <ul>
+	        <li><code>parseInt</code></li>
+	        <li><code>alert</code></li>
+	        <li><code>prompt</code></li>
+	    </ul>
+
+    <h2>Javascript Language Rules</h2>
+
+	    <ul>
+	        <li>Lines end with a semicolon (<code>;</code>)</li>
+	        <li>Some words are reserved, for example <code>var</code>.</li>
+	        <li>Variable names can't start with numbers, but they can contain numbers.</li>
+	        <li>Variable names should be camel case for example: <code>forExample</code></li>
+	    </ul>
+
+
+</section>
+
+		<section class="two-column">
+			<div class="resources">
+				<h2>Resources</h2>
+					<ol>
+						<li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data Types in Javascript</a></li>
+						<li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar">Reserved Words in Javascript</a></li>
+						<li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions">Functions Syntax in Javascript</a></li>
+						<li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI">What is Math.pi?</a></li>
+					</ol>
+	
+			</div>
+
+			<div class="homework">
+				<img height="60" src="../images/homework-pencil.png">
+				<h2>Week 4 Homework</h2>
+				<p><a target="_blank" href="../homework/formulas-Javascript_day1/formulas_homework.html">Writing functions of common formulas</a> - Due on Wednesday, 10/21 @ 6:30pm </p>
+				
+			</div>
+
+
+</body>
+</html>

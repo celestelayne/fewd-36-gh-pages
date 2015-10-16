@@ -1,0 +1,131 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th {
+	text-align: left;
+}
+
+
+/* Typography */
+/* ------------------------ */
+body {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	background: #F3EFE3;
+	color: #232323;
+}
+
+
+/* Layout */
+/* ------------------------ */
+section:not(.two-column) {
+	padding: 24px;
+}
+.two-column {
+	display: flex;
+}
+.two-column > div {
+	flex: 1;
+	padding: 24px;
+}
+.two-column > div:first-child {
+	padding-right: 12px;
+}
+.two-column > div:last-child {
+	padding-left: 12px;
+}
+
+
+/* Header */
+/* ------------------------ */
+header {
+	background: #F8615C;
+	color: #FFFFFF;
+}
+
+
+/* Lists */
+/* ------------------------ */
+ol li {
+	margin-left: 24px;
+}
+li:not(:first-child) {
+	margin-top: 8px;
+}
+
+
+/* Tables */
+/* ------------------------ */
+tr:nth-child(odd) {
+	background: #FAF9F4;
+}
+th,
+td {
+	padding: 4px 16px 4px 12px;
+}
+
+
+/* Headings */
+/* ------------------------ */
+h1 {
+	padding: 12px 24px;
+}
+h1 a,
+h1 a:visited {
+	color: white;
+	text-decoration: none;
+}
+h1 a:hover,
+h1 a:active {
+	color: #F6CBCE;
+	text-decoration: underline;
+}
+h2 {
+	margin-top: 12px;
+	margin-bottom: 4px;
+}
+h3:not(:first-child) {
+	margin-top: 12px;
+}
+
+
+/* Links */
+/* ------------------------ */
+a,
+a:visited {
+	color: #2686CF;
+}
+a:hover,
+a:active {
+	color: #CF2631;
+}
+
+
+/* Text */
+/* ------------------------ */
+p ~ p {
+	margin-top: 8px;
+}
+code {
+	display: inline-block;
+	font-family: monospace;
+	padding: 4px 12px;
+	margin: 4px 0;
+	border: 1px solid grey;
+}
+
+
+/* Student Directory */
+/* ------------------------ */
+.directory table {
+	width: 100%;
+}
